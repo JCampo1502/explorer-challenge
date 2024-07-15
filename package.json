@@ -1,0 +1,26 @@
+{
+  "name": "classroom-explorer-challenge",
+  "version": "1.0.0",
+  "description": "Reto para sustentar los conocimientos de Javascript del Explorer Challenge",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --collectCoverage=false --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agile-Innova-Academy/classroom-explorer-challenge.git"
+  },
+  "keywords": [],
+  "author": "John Florez <john.florez@25gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Agile-Innova-Academy/classroom-explorer-challenge/issues"
+  },
+  "homepage": "https://github.com/Agile-Innova-Academy/classroom-explorer-challenge#readme"
+}
