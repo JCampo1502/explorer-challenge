@@ -21,19 +21,20 @@
                     <button class="character__btn character__btn--create">Crea tu heroe</button>
                     <button class="character__btn character__btn--section character__btn--next">></button>                    
                 </div>
-                <h1 class="character__name">Desconocido</h1>
-                <img  alt="character image" class="character__image" src="./assets/default.png">
-                <p class="character__description">Desconocido</p>
+                <h1 class="character__name" data-character="name">Desconocido</h1>
+                <img  alt="character image" class="character__image" data-character="image" src="./assets/default.png">
+                <p class="character__description" data-character="description">Desconocido</p>
             </article>
             <article class="main__article main__article--creator">
                 <form class="form" id="characterCreator">                                        
+                    <div class="form__message form__message--hidden"></div>
                     <label class="form__label form__label--name" for="name">
                         <span class="form__text">Nombre del heroe</span>
                         <input type="text" class="form__input" id="name" placeholder="Desconocido" maxlength="50" required autocomplete="off">
                     </label>                    
                     <label class="form__label form__label--file" for="image">
                         <img class="character__image character__image--creator" src="./assets/default.png" alt="my own hero here">
-                        <input type="file" class="form__input form__input--file" required name="image" accept="image/jpeg, image/png, image/jpg" id="image" required>
+                        <input type="file" class="form__input form__input--file" accept="image/jpeg, image/png, image/jpg" id="image">
                     </label>
                     <label class="form__label form__label--description" for="description">
                         <span class="form__text">Descripcion</span>
